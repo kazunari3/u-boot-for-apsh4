@@ -42,7 +42,7 @@
 #define CONFIG_CMD_SAVEENV
 
 #define CONFIG_SCIF_CONSOLE	1
-#define CONFIG_BAUDRATE		38400
+#define CONFIG_BAUDRATE		115200
 #define CONFIG_CONS_SCIF1	1
 #define CONFIG_BOARD_LATE_INIT
 
@@ -52,7 +52,7 @@
 
 /* SDRAM */
 #define CONFIG_SYS_SDRAM_BASE		(0x8C000000)
-#define CONFIG_SYS_SDRAM_SIZE		(64 * 1024 * 1024)
+#define CONFIG_SYS_SDRAM_SIZE		(32 * 1024 * 1024)
 
 #define CONFIG_SYS_LONGHELP
 #define CONFIG_SYS_PROMPT		"=> "
@@ -67,7 +67,7 @@
 
 /* NOR Flash */
 /* #define CONFIG_SYS_FLASH_BASE		(0xA1000000)*/
-#define CONFIG_SYS_FLASH_BASE		(0xA0000000)
+#define CONFIG_SYS_FLASH_BASE		(0xA0010000)
 #define CONFIG_SYS_MAX_FLASH_BANKS	(1)	/* Max number of
 					 * Flash memory banks
 					 */
@@ -97,7 +97,7 @@
 #define CONFIG_SYS_FLASH_WRITE_TOUT	500
 
 /* Board Clock */
-#define CONFIG_SYS_CLK_FREQ	33333333
+#define CONFIG_SYS_CLK_FREQ	39333333
 #define CONFIG_SYS_TMU_CLK_DIV		4
 #define CONFIG_SYS_HZ		1000
 

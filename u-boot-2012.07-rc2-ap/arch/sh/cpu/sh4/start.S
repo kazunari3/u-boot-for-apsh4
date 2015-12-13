@@ -27,8 +27,11 @@
 
 	.global	_start
 _sh_start:
+/*
 	mov.l	._lowlevel_init, r0
 100:	bsrf	r0
+*/
+100:	nop
 	nop
 
 	bsr	1f
